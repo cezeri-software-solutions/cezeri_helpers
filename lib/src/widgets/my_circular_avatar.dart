@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
+import '../functions/mixed_functions.dart';
 import 'my_circular_progress_indicator.dart';
 
 class MyAvatar extends StatelessWidget {
@@ -161,5 +162,3 @@ class _MyCircularFileImage extends StatelessWidget {
     );
   }
 }
-
-String getInitials(String name) => name.split(' ').where((str) => str.isNotEmpty).take(2).map((str) => str[0].toUpperCase()).join(' ');

@@ -1,7 +1,5 @@
 library cezeri_helpers;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/classes/classes_export.dart';
+export 'src/functions/functions_export.dart';
+export 'src/widgets/widgets_export.dart';
