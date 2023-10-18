@@ -57,7 +57,6 @@ class Country extends Equatable {
   }
 
   static List<Country> countryList = [
-    Country.empty(),
     Country(id: '1', isoCode: 'AF', name: 'Afghanistan', nameEnglish: 'Afghanistan', dialCode: '+93'),
     Country(id: '2', isoCode: 'AL', name: 'Albanien', nameEnglish: 'Albania', dialCode: '+355'),
     Country(id: '3', isoCode: 'DZ', name: 'Algerien', nameEnglish: 'Algeria', dialCode: '+213'),
