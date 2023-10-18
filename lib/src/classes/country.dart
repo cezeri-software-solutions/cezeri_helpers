@@ -1,11 +1,9 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'country.g.dart';
 
 @JsonSerializable(explicitToJson: true)
-class Country extends Equatable {
+class Country {
   final String id;
   final String isoCode;
   final String name;
@@ -313,9 +311,4 @@ class Country extends Equatable {
     Country(id: '243', isoCode: 'ZM', name: 'Sambia', nameEnglish: 'Zambia', dialCode: '+260'),
     Country(id: '244', isoCode: 'ZW', name: 'Simbabwe', nameEnglish: 'Zimbabwe', dialCode: '+263'),
   ];
-
-  @override
-  List<Object> get props {
-    return [id, isoCode, name, nameEnglish, dialCode];
-  }
 }
