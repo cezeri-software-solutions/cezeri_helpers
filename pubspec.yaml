@@ -1,6 +1,6 @@
 name: cezeri_helpers
 description: A new Flutter package project.
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/cezeri-software-solutions/cezeri_helpers
 
 environment:
@@ -13,6 +13,7 @@ dependencies:
   auto_route: ^7.8.3
   cached_network_image: ^3.2.3
   email_validator: ^2.1.17
+  equatable: ^2.0.5
   firebase_auth: ^4.10.0
 
 dev_dependencies:
